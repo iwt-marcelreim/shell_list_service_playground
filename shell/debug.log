@@ -1,0 +1,5 @@
+[0805/153605.833:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
+[0805/155020.883:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0805/155021.050:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
+[0805/160534.195:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
+[0805/161624.584:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
