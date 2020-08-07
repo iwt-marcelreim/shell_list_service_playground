@@ -1,17 +1,19 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Observable, BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
-
 export class SearchService {
-  private searchResponse = new Subject<any>();
-  currentMessage = this.searchResponse.asObservable();
+  private searchResponse = new BehaviorSubject<any>('service');
 
   constructor() { }
 
   changeMessage(message: any) {
     this.searchResponse.next(message);
+  }
+
+  getMessage(): Observable<any>{
+    return this.searchResponse.asObservable();
   }
 }

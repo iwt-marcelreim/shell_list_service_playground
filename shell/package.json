@@ -20,7 +20,7 @@
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
     "@marci/list": "file:../list/dist/list/marci-list-0.0.1.tgz",
-    "@marci/search": "C:/Work/persönlich/address_list_service_poc/search/dist/search/marci-search-0.0.1.tgz",
+    "@marci/search": "file:../search/dist/search/marci-search-0.0.1.tgz",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

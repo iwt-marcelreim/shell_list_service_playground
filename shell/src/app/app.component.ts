@@ -9,11 +9,14 @@ import { SearchService } from '@marci/search';
 export class AppComponent {
   title = 'shell';
 
-  constructor(private service: SearchService){}
+  constructor(private service: SearchService){
+
+  }
 
   @Input() testString: string;
 
   save(testString) {
     this.service.changeMessage(testString);
   }
+
 }

@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ListComponent } from './list.component';
 
-
 const routes: Routes = [
   {
     path: '',
